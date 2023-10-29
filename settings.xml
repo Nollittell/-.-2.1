@@ -1,0 +1,11 @@
+<profiles>
+    <profile>
+        <id>allure</id>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+        <properties>
+            <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+        </properties>
+    </profile>
+</profiles>
